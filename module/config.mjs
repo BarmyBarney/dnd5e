@@ -66,20 +66,24 @@ DND5E.skills = {
   ani: { label: "DND5E.SkillAni", ability: "wis" },
   arc: { label: "DND5E.SkillArc", ability: "int" },
   ath: { label: "DND5E.SkillAth", ability: "str" },
+  cam: { label: "DND5E.SkillCam", ability: "wis" },
   dec: { label: "DND5E.SkillDec", ability: "cha" },
+  frg: { label: "DND5E.SkillFrg", ability: "dex" },
   his: { label: "DND5E.SkillHis", ability: "int" },
   ins: { label: "DND5E.SkillIns", ability: "wis" },
   itm: { label: "DND5E.SkillItm", ability: "cha" },
   inv: { label: "DND5E.SkillInv", ability: "int" },
   med: { label: "DND5E.SkillMed", ability: "wis" },
   nat: { label: "DND5E.SkillNat", ability: "int" },
+  nav: { label: "DND5E.SkillNav", ability: "int" },
   prc: { label: "DND5E.SkillPrc", ability: "wis" },
   prf: { label: "DND5E.SkillPrf", ability: "cha" },
   per: { label: "DND5E.SkillPer", ability: "cha" },
   rel: { label: "DND5E.SkillRel", ability: "int" },
   slt: { label: "DND5E.SkillSlt", ability: "dex" },
   ste: { label: "DND5E.SkillSte", ability: "dex" },
-  sur: { label: "DND5E.SkillSur", ability: "wis" }
+  sur: { label: "DND5E.SkillSur", ability: "wis" },
+  tin: { label: "DND5E.SkillTin", ability: "dex" }
 };
 preLocalize("skills", { key: "label", sort: true });
 patchConfig("skills", "label", { since: 2.0, until: 2.2 });
@@ -659,19 +663,17 @@ preLocalize("currencies", { keys: ["label", "abbreviation"] });
  * @enum {string}
  */
 DND5E.damageTypes = {
-  acid: "DND5E.DamageAcid",
+  corrosive: "DND5E.DamageCorrosive",
   bludgeoning: "DND5E.DamageBludgeoning",
   cold: "DND5E.DamageCold",
   fire: "DND5E.DamageFire",
-  force: "DND5E.DamageForce",
   lightning: "DND5E.DamageLightning",
   necrotic: "DND5E.DamageNecrotic",
   piercing: "DND5E.DamagePiercing",
   poison: "DND5E.DamagePoison",
   psychic: "DND5E.DamagePsychic",
   radiant: "DND5E.DamageRadiant",
-  slashing: "DND5E.DamageSlashing",
-  thunder: "DND5E.DamageThunder"
+  slashing: "DND5E.DamageSlashing"
 };
 preLocalize("damageTypes", { sort: true });
 
@@ -914,6 +916,15 @@ DND5E.weaponProperties = {
   spc: "DND5E.WeaponPropertiesSpc",
   thr: "DND5E.WeaponPropertiesThr",
   two: "DND5E.WeaponPropertiesTwo",
+  byp: "DND5E.WeaponPropertiesByp",
+  fnh: "DND5E.WeaponPropertiesFsh",
+  nlt: "DND5E.WeaponPropertiesNlt",
+  par: "DND5E.WeaponPropertiesPar",
+  pro: "DND5E.WeaponPropertiesPro",
+  sts: "DND5E.WeaponPropertiesSts",
+  swp: "DND5E.WeaponPropertiesSwp",
+  win: "DND5E.WeaponPropertiesWin",
+  ovr: "DND5E.WeaponPropertiesOvr",
   ver: "DND5E.WeaponPropertiesVer"
 };
 preLocalize("weaponProperties", { sort: true });
