@@ -120,12 +120,6 @@
       "path": "lang/en.json"
     }
   ],
-  "media": [
-    {
-      "type":"cover",
-      "link":"https://github.com/BarmyBarney/dnd5e/blob/v10-dev/media/repo-dnd5e.jpg?raw=true"
-    }
-  ],
   "socket": true,
   "gridDistance": 5,
   "gridUnits": "ft",
