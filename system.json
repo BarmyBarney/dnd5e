@@ -123,7 +123,7 @@
   "media": [
     {
       "type":"cover",
-      "link":"https://github.com/foundryvtt/dnd5e/blob/v10-dev/media/repo-dnd5e.jpg?raw=true"
+      "link":"https://github.com/BarmyBarney/dnd5e/blob/v10-dev/media/repo-dnd5e.jpg?raw=true"
     }
   ],
   "socket": true,
